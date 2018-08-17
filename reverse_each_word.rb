@@ -5,6 +5,7 @@ def reverse_each_word(sentence)
    newSentence += word.reverse 
    if(word.index != arr.size-1)
      newSentence += " "
+    end 
   end 
   newSentence
 end 
